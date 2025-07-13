@@ -81,7 +81,7 @@
    */
   function aosInit() {
     AOS.init({
-      duration: 600,
+      duration: 100,
       easing: 'ease-in-out',
       once: true,
       mirror: false
@@ -99,8 +99,8 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
+      typeSpeed: 30,
+      backSpeed: 30,
       backDelay: 2000
     });
   }
